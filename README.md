@@ -198,3 +198,36 @@ VulnAI is not a replacement for comprehensive penetration testing or professiona
 ## Author
 
 Developed as a personal cybersecurity portfolio project to demonstrate practical skills in Python development, network security assessment, web security analysis, AI integration, and security reporting.
+
+
+## Screenshots
+
+The following screenshots demonstrate VulnAI's main features and assessment workflow.
+
+### 1. VulnAI Dashboard
+
+![VulnAI Dashboard](screenshots/dashboard.png)
+
+### 2. Web Security Assessment
+
+Displays assessment results, Nmap evidence, HTTP security observations, and findings requiring verification.
+
+![Web Security Assessment](screenshots/web_assessment.png)
+
+### 3. Assessment History
+
+Allows users to load previously saved assessments without performing another scan.
+
+![Assessment History](screenshots/assessment_history.png)
+
+### 4. Saved Assessment Comparison
+
+Compares previous and current assessment evidence to identify changes in security findings.
+
+![Assessment Comparison](screenshots/comparison.png)
+
+### 5. PDF Security Report
+
+Generates downloadable reports containing assessment summaries, technical evidence, security findings, and recommendations.
+
+![PDF Security Report](screenshots/pdf_report.png)
