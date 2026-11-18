@@ -145,6 +145,16 @@ export OLLAMA_HOST="http://YOUR_OLLAMA_SERVER_IP:11434"
 
 Ensure that the Ollama server is reachable and configured to accept the intended connection.
 
+Before launching VulnAI, verify that the Ollama server is accessible:
+
+```bash
+curl http://localhost:11434/api/tags
+```
+
+If Ollama runs on another machine, replace `localhost` with that machine's IP address.
+
+The response should list the installed Ollama models, including `qwen3:4b`. Make sure `OLLAMA_HOST` is configured in the same terminal session used to launch Streamlit.
+
 ### 6. Launch VulnAI
 
 ```bash
