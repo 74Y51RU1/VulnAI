@@ -101,7 +101,6 @@ git clone https://github.com/74Y51RU1/VulnAI.git
 cd VulnAI
 ```
 
-Replace `74Y51RU1` with your GitHub username.
 
 ### 2. Create a Python Virtual Environment
 
