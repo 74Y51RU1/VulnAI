@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local assessment history
+vulnai_history.db
+*.db-journal
+
+# Development backups
+*_backup.py
+*_before_*.py
+*_broken_backup.py
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated reports
+*.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
